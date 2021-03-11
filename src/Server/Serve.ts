@@ -1,4 +1,4 @@
-import {SetupResults} from '../Types/SetupResults';
+import { SetupResults } from '../Types/SetupResults';
 
 export default (setup: SetupResults): SetupResults => {
   const { settings, app } = setup;

@@ -1,6 +1,6 @@
 import AsyncMethod from '../Shared/AsyncMethod';
-import {Route} from '../Types/Route';
-import {SetupResults} from '../Types/SetupResults';
+import { Route } from '../Types/Route';
+import { SetupResults } from '../Types/SetupResults';
 
 export default (routes: Route[]) => (setup: SetupResults): SetupResults => {
   const { settings, app } = setup;

@@ -1,4 +1,4 @@
-import {NextFunction, Request, Response} from 'express';
+import { NextFunction, Request, Response } from 'express';
 
 export type Route = {
   method: 'get' | 'put' | 'post' | 'patch' | 'delete' | 'options';
