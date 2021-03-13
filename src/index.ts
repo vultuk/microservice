@@ -4,8 +4,8 @@ import Routes from './Server/Routes';
 import Serve from './Server/Serve';
 import Setup from './Server/Setup';
 import _ from './Shared/Lodash';
-import {Route} from './Types/Route';
-import {Settings} from './Types/Settings';
+import { Route } from './Types/Route';
+import { Settings } from './Types/Settings';
 
 export * from './Types';
 export * as lodash from './Shared/Lodash';
