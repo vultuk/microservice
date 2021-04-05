@@ -1,6 +1,7 @@
 {
-  "name": "@vultuk/microservice",
-  "version": "0.1.2",
+  "name": "@vultuk/microservice-http",
+  "private": false,
+  "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
