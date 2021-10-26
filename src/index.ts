@@ -16,4 +16,4 @@ export type Response = ExpressResponse;
 
 export const Microservice = (settings?: Settings) => (middleware?: any[], appOnlyMiddleware?: any[]) => (
   routes: Route[],
-) => _.pipe(Setup(settings || {}), Middleware(middleware, appOnlyMiddleware, settings || {}), Routes(routes), ErrorHandling, Serve);
+) => _.pipe(Setup(settings || {}), Middleware(middleware, appOnlyMiddleware), Routes(routes), ErrorHandling, Serve);
